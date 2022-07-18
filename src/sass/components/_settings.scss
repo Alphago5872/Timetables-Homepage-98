@@ -1,0 +1,125 @@
+.settings-bigbox {
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  border-radius: 11px;
+  width: 96%;
+
+  &__header {
+    size: 1rem;
+  }
+
+  &__body {
+    background-color: #e4e4e4;
+    border-radius: 11px;
+    height: 55rem;
+
+    &--signout {
+      border: 2px solid red;
+      width: 35%;
+      margin-top: 3rem;
+      margin-left: 3rem;
+      margin-bottom: 10px;
+
+      &--button {
+        background: none;
+        color: red;
+        border: none;
+        padding: 0;
+        margin-left: 40%;
+        height: fit-content;
+        font-size: large;
+        font-weight: bold;
+        cursor: pointer;
+        outline: inherit;
+      }
+    }
+
+    &--newBox {
+      background-color: darkblue;
+      margin-left: 3rem;
+      width: 35%;
+      height: 2.7rem;
+
+      &--button {
+        background: none;
+        color: white;
+        border: none;
+        padding: 0;
+        text-align: center;
+        height: fit-content;
+        font-size: large;
+        font-weight: bold;
+        cursor: pointer;
+        outline: inherit;
+      }
+    }
+
+    &--stuff {
+      display: inline-block;
+
+      &--image {
+        width: 15rem;
+        margin-left: 3rem;
+        margin-top: 4rem;
+      }
+
+      &--name {
+        margin-left: 5rem;
+        font-size: xx-large;
+        position: absolute;
+        margin-top: 9.5rem;
+        display: inline-block;
+      }
+    }
+
+    &--label {
+      color: darkblue;
+      margin-bottom: -1rem;
+      margin-top: 3rem;
+      font-size: medium;
+      margin-left: 3rem;
+    }
+
+    &--box {
+      background-color: lightgray;
+      margin-left: 3rem;
+      width: 35%;
+      border-radius: 3px;
+
+      &--label {
+        border-radius: 2px;
+        font-size: large;
+        width: fit-content;
+        text-align: start;
+        margin-top: 1rem;
+        font-weight: normal;
+      }
+    }
+
+    &--box2 {
+        background-color: lightgray;
+        margin-left: 3rem;
+        width: 35%;
+        border-radius: 3px;
+  
+        &--label2 {
+          border-radius: 2px;
+          font-size: large;
+          width: fit-content;
+          text-align: start;
+          margin-top: 1rem;
+          font-weight: normal;
+        }
+      }
+
+    &--passswordLabel {
+      margin-bottom: 0.1rem;
+      margin-top: 3rem;
+      color: darkblue;
+      margin-left: 3rem;
+    }
+
+  }
+}
